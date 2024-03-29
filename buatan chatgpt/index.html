@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedai Kopi Mantap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #663300;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #996633;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #774c2c;
+        }
+        .container {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        footer {
+            background-color: #663300;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kedai Kopi buatan AI</h1>
+    </header>
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Menu</a>
+        <a href="#">Tentang Kami</a>
+        <a href="#">Kontak</a>
+    </nav>
+    <div class="container">
+        <h2>Selamat Datang di Kedai Kopi Mantap</h2>
+        <p>Di sini kami menyajikan berbagai macam kopi pilihan terbaik dari berbagai belahan dunia.</p>
+        <h3>Menu Utama</h3>
+        <ul class="menu-list">
+            <li>Kopi Arabika</li>
+            <li>Kopi Robusta</li>
+            <li>Cappuccino</li>
+            <li>Latte</li>
+            <li>Espresso</li>
+            <li>Americano</li>
+        </ul>
+        <button class="button" onclick="pesanKopi()">Pesan Kopi</button>
+        <div id="lokasi">
+            <h3>Lokasi Kami</h3>
+            <p>Jalan Kopi Mantap No. 123</p>
+            <p>Kota Kopi, Negara Kopi</p>
+        </div>
+        <div id="about">
+            <h3>Tentang Kami</h3>
+            <p>Kedai Kopi Mantap adalah tempat untuk para pecinta kopi. Kami menyediakan berbagai jenis kopi dari seluruh dunia, disajikan dengan kualitas terbaik.</p>
+            <p>Di sini, Anda dapat menikmati suasana yang nyaman sambil menikmati kopi favorit Anda. Staf kami yang ramah akan selalu siap melayani Anda dengan senyuman.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Kedai Kopi Mantap. All rights reserved.</p>
+    </footer>
+    <script>
+        function pesanKopi() {
+            alert("Terima kasih atas pesanan Anda! Mohon tunggu sebentar.");
+        }
+    </script>
+</body>
+</html>
